@@ -1,0 +1,44 @@
+.control-panel {
+    margin-top: 20px;
+    padding: 10px;
+    width: 504px;
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 10px;
+}
+
+.control-panel-text {
+    color: #666666;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.move-keys-img {
+    width: 250px;
+}
+
+.control-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.control-button-container:first-child {
+    margin-top: 0px;
+}
+
+.btn-reset,
+.btn-pause {
+    width: 100px;
+    background-color: white;
+    font-size: 20px;
+    color: #666666;
+    border: 2px solid #666666;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn-reset:hover,
+.btn-pause:hover {
+    background-color: #666666;
+    color: white;
+}
